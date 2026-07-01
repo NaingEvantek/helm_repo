@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "NAING",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus23.actions.githubusercontent.com/mPURm3ReQ9uPNMUWphJqvt1OQZrAF5DGD1sYPodUjeC0zVPKRg/",
+  "gitHubUrl": "https://github.com/NaingEvantek/helm_repo",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

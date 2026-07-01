@@ -1,0 +1,25 @@
+appName: sample-api
+
+replicaCount: 3
+
+image:
+  repository: sample-api
+  tag: v3
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 8080
+
+env: Development
+
+dbConnectionString: "Server=sql-server-service,1433;Database=SampleDb;User Id=sa;Password=MyStrong@Passw0rd;TrustServerCertificate=True"
+dbPassword: "MyStrong@Passw0rd"
+
+resources:
+  requests:
+    cpu: "100m"
+    memory: "128Mi"
+  limits:
+    cpu: "500m"
+    memory: "256Mi"

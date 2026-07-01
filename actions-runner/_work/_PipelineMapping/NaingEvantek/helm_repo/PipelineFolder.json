@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "NaingEvantek/helm_repo",
+  "pipelineDirectory": "helm_repo",
+  "workspaceDirectory": "helm_repo\\helm_repo",
+  "repositories": {
+    "NaingEvantek/helm_repo": {
+      "repositoryPath": "helm_repo\\helm_repo",
+      "lastRunOn": "07/01/2026 17:24:49 +08:00"
+    }
+  },
+  "lastRunOn": "07/01/2026 17:24:49 +08:00"
+}
